@@ -15,12 +15,6 @@ public:
 	// Sets default values for this actor's properties
 	ACP_MovingStarfish();
 
-	UFUNCTION(BlueprintCallable)
-	void MoveStarfishUp();
-
-	UFUNCTION(BlueprintCallable)
-	void RotateStarfish();
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -30,21 +24,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
-	//Static mesh for rendering
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* StarfishStaticMesh;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+		UStaticMeshComponent* StarfishStaticMesh;
 
-	bool shouldMoveUp;
-	bool shouldRotate;
-	bool shouldMoveToPlayer;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+		FVector NewZLocation;
 
-	UPROPERTY(EditAnywhere)
-	float DesiredZPosition = -1045.f;
-	UPROPERTY(EditAnywhere)
-	float ZPositionChangeRate = 10.f;
-
-	UPROPERTY(EditAnywhere)
-	float DesiredYRotation = -90.f;
-	UPROPERTY(EditAnywhere)
-	float YRotationChangeRate = -5.f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+		float DesiredYRotation = -90.f;
 };

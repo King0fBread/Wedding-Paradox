@@ -14,18 +14,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define WEDDINGPARADOX_CP_MovingStarfish_generated_h
 
 #define FID_WeddingParadox_Source_WeddingParadox_CP_MovingStarfish_h_12_SPARSE_DATA
-#define FID_WeddingParadox_Source_WeddingParadox_CP_MovingStarfish_h_12_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execRotateStarfish); \
-	DECLARE_FUNCTION(execMoveStarfishUp);
-
-
-#define FID_WeddingParadox_Source_WeddingParadox_CP_MovingStarfish_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execRotateStarfish); \
-	DECLARE_FUNCTION(execMoveStarfishUp);
-
-
+#define FID_WeddingParadox_Source_WeddingParadox_CP_MovingStarfish_h_12_RPC_WRAPPERS
+#define FID_WeddingParadox_Source_WeddingParadox_CP_MovingStarfish_h_12_RPC_WRAPPERS_NO_PURE_DECLS
 #define FID_WeddingParadox_Source_WeddingParadox_CP_MovingStarfish_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACP_MovingStarfish(); \

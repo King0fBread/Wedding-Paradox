@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\ue\\weddingparadox\\weddingparadox\\intermediate\\build\\win64\\unrealeditor\\inc\\weddingparadox\\cp_movingstarfish.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\ue\\weddingparadox\\weddingparadox\\intermediate\\build\\win64\\weddingparadoxeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\ue\\weddingparadox\\weddingparadox\\intermediate\\build\\win64\\unrealeditor\\development\\weddingparadox\\definitions.weddingparadox.h",
+            "c:\\ue\\weddingparadox\\weddingparadox\\source\\weddingparadox\\cp_movingstarfish.h",
+            "c:\\ue\\weddingparadox\\weddingparadox\\intermediate\\build\\win64\\unrealeditor\\inc\\weddingparadox\\cp_movingstarfish.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

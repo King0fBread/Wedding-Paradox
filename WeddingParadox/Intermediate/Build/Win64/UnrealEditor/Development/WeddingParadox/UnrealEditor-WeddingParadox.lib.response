@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-WeddingParadox.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\UE\WeddingParadox\WeddingParadox\Intermediate\Build\Win64\WeddingParadoxEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\UE\WeddingParadox\WeddingParadox\Intermediate\Build\Win64\UnrealEditor\Development\WeddingParadox\CP_MovingStarfish.cpp.obj"
+"C:\UE\WeddingParadox\WeddingParadox\Intermediate\Build\Win64\UnrealEditor\Development\WeddingParadox\WeddingParadox.cpp.obj"
+"C:\UE\WeddingParadox\WeddingParadox\Intermediate\Build\Win64\UnrealEditor\Development\WeddingParadox\CP_MovingStarfish.gen.cpp.obj"
+"C:\UE\WeddingParadox\WeddingParadox\Intermediate\Build\Win64\UnrealEditor\Development\WeddingParadox\WeddingParadox.init.gen.cpp.obj"
+"C:\UE\WeddingParadox\WeddingParadox\Intermediate\Build\Win64\UnrealEditor\Development\WeddingParadox\Default.rc2.res"
+/OUT:"C:\UE\WeddingParadox\WeddingParadox\Intermediate\Build\Win64\UnrealEditor\Development\WeddingParadox\UnrealEditor-WeddingParadox.lib"

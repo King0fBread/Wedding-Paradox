@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\ue\\weddingparadox\\weddingparadox\\intermediate\\build\\win64\\unrealeditor\\inc\\weddingparadox\\weddingparadox.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\ue\\weddingparadox\\weddingparadox\\intermediate\\build\\win64\\weddingparadoxeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\ue\\weddingparadox\\weddingparadox\\intermediate\\build\\win64\\unrealeditor\\development\\weddingparadox\\definitions.weddingparadox.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

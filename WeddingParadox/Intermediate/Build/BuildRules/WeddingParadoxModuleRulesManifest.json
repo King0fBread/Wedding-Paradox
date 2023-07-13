@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\UE\\WeddingParadox\\WeddingParadox\\Source\\WeddingParadox\\WeddingParadox.Build.cs",
+		"C:\\UE\\WeddingParadox\\WeddingParadox\\Source\\WeddingParadox.Target.cs",
+		"C:\\UE\\WeddingParadox\\WeddingParadox\\Source\\WeddingParadoxEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

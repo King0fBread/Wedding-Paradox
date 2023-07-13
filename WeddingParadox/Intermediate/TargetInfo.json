@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "WeddingParadox",
+			"Path": "C:\\UE\\WeddingParadox\\WeddingParadox\\Source\\WeddingParadox.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "WeddingParadoxEditor",
+			"Path": "C:\\UE\\WeddingParadox\\WeddingParadox\\Source\\WeddingParadoxEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

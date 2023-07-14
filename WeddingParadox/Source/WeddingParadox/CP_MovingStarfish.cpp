@@ -11,6 +11,7 @@ ACP_MovingStarfish::ACP_MovingStarfish()
 	PrimaryActorTick.bCanEverTick = true;
 	StarfishStaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StarfishStaticMesh"));
 	RootComponent = StarfishStaticMesh;
+
 }
 // Called when the game starts or when spawned
 void ACP_MovingStarfish::BeginPlay()

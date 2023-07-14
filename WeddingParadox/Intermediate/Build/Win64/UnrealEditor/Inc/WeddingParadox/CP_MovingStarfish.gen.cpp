@@ -39,9 +39,9 @@ void EmptyLinkFunctionForGeneratedCodeCP_MovingStarfish() {}
 #endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_NewZLocation;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_DesiredYRotation_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_NewYRotation_MetaData[];
 #endif
-		static const UECodeGen_Private::FFloatPropertyParams NewProp_DesiredYRotation;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_NewYRotation;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -74,17 +74,17 @@ void EmptyLinkFunctionForGeneratedCodeCP_MovingStarfish() {}
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_NewZLocation = { "NewZLocation", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACP_MovingStarfish, NewZLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_NewZLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_NewZLocation_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_DesiredYRotation_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_NewYRotation_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "CP_MovingStarfish" },
 		{ "ModuleRelativePath", "CP_MovingStarfish.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_DesiredYRotation = { "DesiredYRotation", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACP_MovingStarfish, DesiredYRotation), METADATA_PARAMS(Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_DesiredYRotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_DesiredYRotation_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_NewYRotation = { "NewYRotation", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACP_MovingStarfish, NewYRotation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_NewYRotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_NewYRotation_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACP_MovingStarfish_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_StarfishStaticMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_NewZLocation,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_DesiredYRotation,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACP_MovingStarfish_Statics::NewProp_NewYRotation,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACP_MovingStarfish_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACP_MovingStarfish>::IsAbstract,
@@ -122,9 +122,9 @@ void EmptyLinkFunctionForGeneratedCodeCP_MovingStarfish() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_WeddingParadox_Source_WeddingParadox_CP_MovingStarfish_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACP_MovingStarfish, ACP_MovingStarfish::StaticClass, TEXT("ACP_MovingStarfish"), &Z_Registration_Info_UClass_ACP_MovingStarfish, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACP_MovingStarfish), 4086888778U) },
+		{ Z_Construct_UClass_ACP_MovingStarfish, ACP_MovingStarfish::StaticClass, TEXT("ACP_MovingStarfish"), &Z_Registration_Info_UClass_ACP_MovingStarfish, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACP_MovingStarfish), 2787634844U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_WeddingParadox_Source_WeddingParadox_CP_MovingStarfish_h_3597537933(TEXT("/Script/WeddingParadox"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_WeddingParadox_Source_WeddingParadox_CP_MovingStarfish_h_3063387433(TEXT("/Script/WeddingParadox"),
 		Z_CompiledInDeferFile_FID_WeddingParadox_Source_WeddingParadox_CP_MovingStarfish_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_WeddingParadox_Source_WeddingParadox_CP_MovingStarfish_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -28,8 +28,8 @@ private:
 		UStaticMeshComponent* StarfishStaticMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-		FVector NewZLocation;
+		FVector NewZLocation = FVector(1016.0f, -28887.0f, -1054.0f);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-		float DesiredYRotation = -90.f;
+		FVector NewYRotation = FVector(.0f, -90.f, .0f);
 };
